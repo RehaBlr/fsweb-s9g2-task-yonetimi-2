@@ -35,17 +35,17 @@
 
 /* TASK */
 .task {
-  padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 5px;
-  line-height: 1.5;
-  margin-top: 1rem;
-  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%);
+  /* padding: 1.5rem;  p-1 --- 0.25 rem p-6*/
+  /* background-color: #fff; bg-white*/
+  /* border-radius: 5px; rounded*/
+  /* line-height: 1.5; leading-6 */
+  /* margin-top: 1rem;   mt-4  */
+  /* box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%);   shadow-md */
 }
 
 .task h3 {
-  font-size: 18px;
-  color: #c8781a;
+  /* font-size: 18px;  text-lg */
+  /* color: #c8781a;  text-[#c8781a] */
 }
 
 .task p {
@@ -55,35 +55,38 @@
 }
 
 .task button {
-  display: block;
-  padding: 8px 12px;
-  margin-left: auto;
-  background-color: #fecc91;
-  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
-  border-radius: 3px;
-  border: 0;
-  cursor: pointer;
+  /* display: block;  block */
+  /* padding: 8px 12px;  py-2 px-3 */
+  /* margin-left: auto; ml-auto */
+  /* background-color: #fecc91;   bg-[#fecc91] */
+  /* box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);  shadow-md */
+  /* border-radius: 3px;  rounded */
+  /* border: 0;  border-0 */
+  /* cursor: pointer;  cursor-pointe */
 }
 
 .pill {
-  display: inline-block;
-  padding: 5px 12px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  margin-right: 4px;
-  margin-bottom: 6px;
-  border-radius: 30px;
+  /* display: inline-block; inline-block */
+  /* padding: 5px 12px;  py-1 px-3 */
+  /* font-size: 14px;  text-sm */
+  /* border: 1px solid #ccc;  border border-[#ccc] */
+  /* margin-right: 4px;  mr-1 */
+  /* margin-bottom: 6px; mb-1.5 */
+  /* border-radius: 30px; rounded-full */
+  @apply inline-block py-1 px-3 text-sm border border-[#ccc] mr-1 mb-1.5 rounded-full;
 }
 
 .deadline {
-  font-size: 12px;
-  padding-top: 4px;
+  /* font-size: 12px;  text-xs */
+  /* padding-top: 4px;  pt-1 */
+  @apply text-xs pt-1;
 }
 
 .deadline span {
-  padding: 3px 8px;
-  border-radius: 2px;
-  display: inline-block;
+  /* padding: 3px 8px; py-1 px-2 */
+  /* border-radius: 2px; */
+  /* display: inline-block; */
+  @apply py-1 px-2 rounded-sm inline-block;
 }
 
 .normal {
